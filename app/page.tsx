@@ -5,6 +5,7 @@ import Skills from "@/components/Skills";
 import GithubProjects from "@/components/GithubProjects";
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";
+import YouTube from "@/components/YouTube";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Skills />
       <GithubProjects />
       <Experience />
+      <YouTube />
       <Education />
     </main>
   );
