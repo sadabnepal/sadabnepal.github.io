@@ -17,7 +17,7 @@ export default function ScrollyCanvas() {
   // Pad numbers like 001, 012, etc.
   const getFrameUrl = (index: number) => {
     const paddedIndex = index.toString().padStart(3, "0");
-    return `/my-portfolio/sequence/${FRAME_PREFIX}${paddedIndex}${FRAME_SUFFIX}`;
+    return `/sequence/${FRAME_PREFIX}${paddedIndex}${FRAME_SUFFIX}`;
   };
 
   // Preload Images
